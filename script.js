@@ -12,6 +12,7 @@ day + ", " + date + " " + month + " " + year + " | " +
 hours + ":" + minutes;
 
 
+
 const city = document.getElementById("city");
 const submit = document.getElementById("submit");
 const cityName = document.getElementById("city-name");

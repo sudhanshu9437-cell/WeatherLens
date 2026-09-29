@@ -3,72 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather</title>
+    <title>Weather Lens</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="./style2.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <style>
-        body {
-            background: linear-gradient(
-                to bottom,
-                #020411 0%,
-                #04101c 15%,
-                #071a28 30%,
-                #0d2a36 50%,
-                #15424b 75%,
-                #23626b 100%
-            );
-        }
-        ::placeholder {
-            color: #cac7ff;
-        }
-        .search-bar {
-            backdrop-filter: blur(10px) saturate(180%);
-        }
-        .info-gap { gap: 5%; }
-        .data-gap { gap: 5%; }
-        .option-gap { gap: 15px; }
-
-        @media (min-width: 768px) {
-            .info-gap { gap: 10%; }
-            .data-gap { gap: 25%; }
-            .option-gap { gap: 5%; }
-        }
-        #image:hover {
-            transform: scale(1.2);
-            transition: all 0.8s ease;
-        }
-        .information:hover {
-            background-color: rgba(255, 255, 255, 0.3);
-        }
-        .info:hover {
-            transform: scale(1.1);
-            transition: all 0.8s ease;
-        }
-        .optioncard:hover {
-            background-color: rgba(255, 255, 255, 0.3);
-            transform: translateY(-5px);
-            transition: all 0.8s ease;
-        }
-        @media (max-width: 600px) {
-        .information {
-        display: grid !important;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px !important;
-        margin: 10px !important;
-        padding: 20px !important;
-        }
-        .info {
-        width: 100%;
-        margin: 0 !important;
-        }
-    }
-    </style>
 </head>
 <body class="m-0 p-0 min-h-screen bg-no-repeat bg-cover text-white overflow-x-hidden">
 
     <div class="flex flex-col items-center px-4">
-        <h1 id="weather" class="text-4xl md:text-5xl text-white text-center font-sans py-5">WEATHER</h1>
+        <h1 id="weather" class="text-4xl md:text-5xl text-white text-center font-sans py-5">Weather Lens</h1>
         <form action="" class="search-bar flex justify-center mt-2.5 w-full max-w-xl items-center rounded-full px-5 py-1 bg-white/20">
             <input
                 type="text"
@@ -197,5 +140,6 @@
     </div>
 
     <script src="script.js"></script>
+    <script src="enhance.js"></script>
 </body>
 </html>
