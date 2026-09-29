@@ -5,7 +5,7 @@ A simple and responsive weather website that shows real-time weather data for an
 ---
 ## 🌐 Live Demo
 
-https://sudhanshu9437-cell.github.io/WEATHER/
+https://weather-lens-one.vercel.app/
 
 ---
 
